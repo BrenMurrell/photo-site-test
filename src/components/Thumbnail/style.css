@@ -1,0 +1,14 @@
+.thumbnail {
+  height: 402px;
+  position: relative;
+  width: 402px;
+}
+
+.thumbnail .image {
+  height: 414px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: 414px;
+}

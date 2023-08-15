@@ -1,0 +1,36 @@
+.nav-item {
+  position: relative;
+  width: 75px;
+}
+
+.nav-item .text-wrapper {
+  font-family: "Zilla Slab", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.nav-item.dark-mode-true {
+  height: 29px;
+}
+
+.nav-item.dark-mode-false {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-item.dark-mode-true .text-wrapper {
+  color: #ffffff;
+  left: 0;
+  position: absolute;
+  top: -1px;
+}
+
+.nav-item.dark-mode-false .text-wrapper {
+  color: #222222;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}

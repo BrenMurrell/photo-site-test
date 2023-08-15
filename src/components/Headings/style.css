@@ -1,0 +1,40 @@
+.headings {
+  position: relative;
+}
+
+.headings .latest-photos {
+  font-family: "Birthstone Bounce", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+}
+
+.headings.two {
+  height: 44px;
+  width: 149px;
+}
+
+.headings.one {
+  height: 66px;
+  width: 229px;
+}
+
+.headings .dark-mode-2-true {
+  color: #ffffff;
+}
+
+.headings .dark-mode-2-false {
+  color: #222222;
+}
+
+.headings .level-one {
+  font-size: 48px;
+  left: 4px;
+}
+
+.headings .level-two {
+  font-size: 32px;
+  left: 0;
+}
